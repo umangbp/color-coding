@@ -1,6 +1,8 @@
 # color-coding-challenge
 
-#### Code Overview
+This repository contain code for color coding challenge. The javascript program generates unique RGB colors from rgb space and generates design using those colors in such a way that no colors are left unused from the color space.
+
+#### Code Overview
 
 ```html
 <html>
