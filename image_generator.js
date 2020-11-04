@@ -114,4 +114,5 @@ for(var r=8; r<=256; r=r+8){
     }
 }
 
+// printing image data on canvas
 ctx_drawing_board.putImageData(image_data, 15, 30); 
