@@ -2,6 +2,7 @@
 Title: Color Code Challenge
 Author: Umang Patel
 Email: umang2332@gmail.com
+GitHub: https://github.com/umangbp/color-coding
 */
 
 var colors = [];    // array to hold combination of colors 
@@ -34,7 +35,6 @@ var image_data = ctx_drawing_board.createImageData(width, height);
 */
 function print_design(color_arr){
     
-
     var color_arr_index = 0;
 
     // once function receive colors loop on x and y coordinates to print square 
@@ -53,15 +53,14 @@ function print_design(color_arr){
             var blue = square_color[2];
 
             // set rgb and transparency value in image_data
-            image_data.data[pixelindex] = red;     // Red
-            image_data.data[pixelindex+1] = green; // Green
-            image_data.data[pixelindex+2] = blue;  // Blue
-            image_data.data[pixelindex+3] = 255;   // Alpha
+            image_data.data[pixelindex] = red;    
+            image_data.data[pixelindex+1] = green; 
+            image_data.data[pixelindex+2] = blue; 
+            image_data.data[pixelindex+3] = 255; 
 
-            color_arr_index++ // increamenting color_index to make sure colors are not reused
+            color_arr_index++;
         }
     }
-
 
     squares_count++;  
     color_arr_index = 0
